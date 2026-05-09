@@ -78,7 +78,7 @@ export default function TeamPage() {
                 </div>
                 <div className="p-6 flex flex-col justify-between">
                   <div>
-                    {member.featured && <span className="inline-block bg-mist text-slate-blue text-xs font-semibold px-3 py-1 rounded-full mb-3">Principal & Founder</span>}
+                    
                     <h2 className="font-display text-xl text-charcoal font-medium">{member.name}</h2>
                     <p className="text-slate-blue text-sm font-medium mt-0.5">{member.role}</p>
                     <p className="text-warm-grey text-xs mt-0.5">{member.gdc}</p>
