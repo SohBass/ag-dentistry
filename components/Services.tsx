@@ -6,42 +6,42 @@ const services = [
     title: "General Dentistry",
     desc: "Comprehensive check-ups, root canal treatment, crowns, extractions, and white fillings — all the essential care your teeth need.",
     icon: "🦷",
-    image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=600&q=80&auto=format&fit=crop",
+    image: "https://images.pexels.com/photos/3779706/pexels-photo-3779706.jpeg?auto=compress&cs=tinysrgb&w=600",
     href: "#new-patient",
   },
   {
     title: "Cosmetic Dentistry",
     desc: "Teeth whitening, porcelain veneers, and white fillings to enhance your smile naturally and beautifully.",
     icon: "✨",
-    image: "https://images.unsplash.com/photo-1588776814546-1ffbb5d9ecdb?w=600&q=80&auto=format&fit=crop",
+    image: "https://images.pexels.com/photos/5622271/pexels-photo-5622271.jpeg?auto=compress&cs=tinysrgb&w=600",
     href: "#new-patient",
   },
   {
     title: "Preventive Dentistry",
     desc: "Hygienist appointments, gum disease treatment, bad breath management, and mouth cancer screening.",
     icon: "🛡️",
-    image: "https://images.unsplash.com/photo-1588776814546-1ffbb5d9ecdb?w=600&q=80&auto=format&fit=crop",
+    image: "https://images.pexels.com/photos/4269698/pexels-photo-4269698.jpeg?auto=compress&cs=tinysrgb&w=600",
     href: "#new-patient",
   },
   {
     title: "Orthodontics",
     desc: "Invisalign clear aligners and Cfast braces — discreet, effective ways to straighten your teeth.",
     icon: "📐",
-    image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600&q=80&auto=format&fit=crop",
+    image: "https://images.pexels.com/photos/11887613/pexels-photo-11887613.jpeg?auto=compress&cs=tinysrgb&w=600",
     href: "#new-patient",
   },
   {
     title: "Dental Implants",
     desc: "Missing teeth replaced with permanent, natural-looking implants at our specialist Harley Street Implants Centre.",
     icon: "🔬",
-    image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=600&q=80&auto=format&fit=crop",
+    image: "https://images.pexels.com/photos/6502306/pexels-photo-6502306.jpeg?auto=compress&cs=tinysrgb&w=600",
     href: "#new-patient",
   },
   {
     title: "Emergency Care",
     desc: "Same-day emergency appointments for toothache, broken teeth, and urgent dental problems across all locations.",
     icon: "🚑",
-    image: "https://images.unsplash.com/photo-1588776814546-1ffbb5d9ecdb?w=600&q=80&auto=format&fit=crop",
+    image: "https://images.pexels.com/photos/6529110/pexels-photo-6529110.jpeg?auto=compress&cs=tinysrgb&w=600",
     href: "#emergency",
   },
 ];
@@ -52,7 +52,6 @@ export default function Services() {
   return (
     <section id="services" className="py-28 bg-pearl" ref={ref}>
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        {/* Header */}
         <div className="reveal max-w-xl mb-16">
           <span className="text-slate-blue text-xs font-semibold tracking-[0.2em] uppercase">What We Offer</span>
           <h2 className="font-display text-4xl md:text-5xl text-charcoal mt-3 leading-tight font-light">
@@ -63,8 +62,6 @@ export default function Services() {
             From your first check-up to a complete smile transformation — our specialist team has the expertise you need.
           </p>
         </div>
-
-        {/* Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((svc, i) => (
             <div
@@ -72,7 +69,6 @@ export default function Services() {
               className={`reveal reveal-delay-${(i % 3) + 1} service-card bg-white rounded-2xl overflow-hidden border border-light-grey/40 group cursor-pointer`}
               onClick={() => document.querySelector(svc.href)?.scrollIntoView({ behavior: "smooth" })}
             >
-              {/* Image */}
               <div className="relative h-48 overflow-hidden">
                 <img
                   src={svc.image}
@@ -82,8 +78,6 @@ export default function Services() {
                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal/40 to-transparent" />
                 <div className="absolute bottom-4 left-4 text-2xl">{svc.icon}</div>
               </div>
-
-              {/* Content */}
               <div className="p-6">
                 <h3 className="font-display text-xl text-charcoal mb-2 font-medium group-hover:text-slate-blue transition-colors">
                   {svc.title}
