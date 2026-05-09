@@ -14,7 +14,7 @@ export default function About() {
             {/* Main image */}
             <div className="reveal relative rounded-2xl overflow-hidden aspect-[4/5] shadow-2xl shadow-slate-blue/10">
               <img
-                src="https://images.unsplash.com/photo-1588776814546-1ffbb5d9ecdb?w=800&q=85&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=800&q=85&auto=format&fit=crop"
                 alt="AG Dentistry clinic interior"
                 className="w-full h-full object-cover"
               />
