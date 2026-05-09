@@ -15,7 +15,7 @@ const team = [
   {
     name: "Dr. Kayvan Ahmadi",
     gdc: "GDC: 81257",
-    role: "Senior Dentist",
+    role: "Principal Dentist & Co-Founder",
     bio: "Dr. Kayvan Ahmadi is a highly experienced dentist with a broad skill set spanning general and cosmetic dentistry. Known for his calm, reassuring manner, Dr. Ahmadi has built a loyal patient base across our London locations.",
     specialisms: ["General Dentistry", "Cosmetic Dentistry", "Patient Care"],
     image: "https://images.pexels.com/photos/5452268/pexels-photo-5452268.jpeg?auto=compress&cs=tinysrgb&w=400",
