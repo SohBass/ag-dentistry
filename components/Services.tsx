@@ -13,7 +13,7 @@ const services = [
     title: "Cosmetic Dentistry",
     desc: "Teeth whitening, porcelain veneers, and white fillings to enhance your smile naturally and beautifully.",
     icon: "✨",
-    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1588776814546-1ffbb5d9ecdb?w=600&q=80&auto=format&fit=crop",
     href: "#new-patient",
   },
   {
@@ -27,21 +27,21 @@ const services = [
     title: "Orthodontics",
     desc: "Invisalign clear aligners and Cfast braces — discreet, effective ways to straighten your teeth.",
     icon: "📐",
-    image: "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=600&q=80&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600&q=80&auto=format&fit=crop",
     href: "#new-patient",
   },
   {
     title: "Dental Implants",
     desc: "Missing teeth replaced with permanent, natural-looking implants at our specialist Harley Street Implants Centre.",
     icon: "🔬",
-    image: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&q=80&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=600&q=80&auto=format&fit=crop",
     href: "#new-patient",
   },
   {
     title: "Emergency Care",
     desc: "Same-day emergency appointments for toothache, broken teeth, and urgent dental problems across all locations.",
     icon: "🚑",
-    image: "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=600&q=80&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1588776814546-1ffbb5d9ecdb?w=600&q=80&auto=format&fit=crop",
     href: "#emergency",
   },
 ];
