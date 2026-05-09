@@ -76,7 +76,7 @@ export default function About() {
 
             <div className="reveal reveal-delay-3">
               <button
-                onClick={() => window.location.href='/book-appointment'}
+                onClick={() => window.location.href='/team'}
                 className="inline-flex items-center gap-2 bg-charcoal text-white font-medium px-7 py-3.5 rounded-full hover:bg-slate-blue transition-all duration-300 text-sm tracking-wide"
               >
                 Meet the Team
