@@ -82,8 +82,8 @@ export default function Contact() {
           />
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="bg-white/95 backdrop-blur-sm rounded-2xl px-8 py-5 shadow-xl text-center">
-              <p className="font-semibold text-charcoal mb-1">Three locations across London</p>
-              <p className="text-warm-grey text-sm mb-3">Kentish Town · Kensal Rise · Harley Street</p>
+              <p className="font-semibold text-charcoal mb-1">AG Dentistry Kentish Town</p>
+              <p className="text-warm-grey text-sm mb-3">333 Kentish Town Road, London NW5 2TJ</p>
               <a
                 href="https://maps.google.com"
                 target="_blank"
