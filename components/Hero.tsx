@@ -25,7 +25,7 @@ export default function Hero() {
           className="w-full h-full object-cover"
         />
         {/* Layered gradient for readability + atmosphere */}
-        <div className="absolute inset-0 bg-gradient-to-r from-charcoal/85 via-charcoal/60 to-charcoal/20" />
+        <div className="absolute inset-0 bg-gradient-to-r from-charcoal/90 via-charcoal/75 to-charcoal/50" />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-charcoal/50" />
       </div>
 
@@ -96,7 +96,7 @@ export default function Hero() {
           >
             {[
               { value: "22+", label: "Years experience" },
-              { value: "3", label: "London locations" },
+              { value: "Kentish Town", label: "Our location" },
               { value: "NHS & Private", label: "Patients welcome" },
             ].map((stat) => (
               <div key={stat.label}>
