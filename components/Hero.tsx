@@ -20,7 +20,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1629909615184-74f495363b67?w=1920&q=85&auto=format&fit=crop"
+          src="https://images.pexels.com/photos/3762441/pexels-photo-3762441.jpeg?auto=compress&cs=tinysrgb&w=1920"
           alt="Modern dental clinic"
           className="w-full h-full object-cover"
         />
