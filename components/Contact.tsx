@@ -11,15 +11,14 @@ export default function Contact() {
         <div className="reveal text-center max-w-xl mx-auto mb-14">
           <span className="text-slate-blue text-xs font-semibold tracking-[0.2em] uppercase">Get in Touch</span>
           <h2 className="font-display text-4xl md:text-5xl text-charcoal mt-3 leading-tight font-light">
-            We're here to{" "}
-            <em className="italic text-slate-blue">help</em>
+            We are here to <em className="italic text-slate-blue">help</em>
           </h2>
           <p className="text-warm-grey mt-4 leading-relaxed">
-            Have a question before booking? Reach out — our friendly team will get back to you promptly.
+            Have a question before booking? Reach out and our friendly team will get back to you promptly.
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-14">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {[
             {
               icon: Phone,
@@ -42,13 +41,13 @@ export default function Contact() {
             {
               icon: Clock,
               title: "Opening Hours",
-              lines: ["Mon–Fri: 8am–7pm", "Saturday: 9am–5pm"],
-              action: { label: "View Locations", href: "#locations" },
+              lines: ["Mon–Fri: 9am–6pm", "Saturday: 9am–2pm (by appt)"],
+              action: { label: "View Location", href: "#locations" },
             },
           ].map(({ icon: Icon, title, lines, action }, i) => (
             <div
               key={title}
-              className={`reveal reveal-delay-${i + 1} bg-white rounded-2xl p-6 border border-light-grey/50 text-center hover:shadow-lg hover:shadow-slate-blue/6 transition-all duration-300 group`}
+              className={`reveal reveal-delay-${i + 1} bg-white rounded-2xl p-6 border border-light-grey/50 text-center hover:shadow-lg transition-all duration-300 group`}
             >
               <div className="w-12 h-12 rounded-2xl bg-mist flex items-center justify-center mx-auto mb-4 group-hover:bg-slate-blue transition-colors">
                 <Icon size={22} className="text-slate-blue group-hover:text-white transition-colors" />
@@ -57,7 +56,7 @@ export default function Contact() {
               {lines.map((line) => (
                 <p key={line} className="text-warm-grey text-sm leading-relaxed">{line}</p>
               ))}
-              <a
+              
                 href={action.href}
                 onClick={(e) => {
                   if (action.href.startsWith("#")) {
@@ -71,7 +70,6 @@ export default function Contact() {
               </a>
             </div>
           ))}
-        </div>
         </div>
       </div>
     </section>

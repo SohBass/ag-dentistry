@@ -8,7 +8,6 @@ const team = [
     gdc: "GDC: 73854",
     role: "Principal Dentist & Co-Founder",
     bio: "Dr. Ali Ghaffarpour co-founded AG Dentistry over 22 years ago with a vision to bring premium, patient-centred dental care to London. With decades of experience across all aspects of dentistry, Dr. Ghaffarpour leads the practice with a commitment to clinical excellence and continuous innovation.",
-    specialisms: ["General Dentistry", "Cosmetic Dentistry", "Practice Leadership"],
     image: "https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=400",
   },
   {
@@ -16,7 +15,6 @@ const team = [
     gdc: "GDC: 81257",
     role: "Principal Dentist & Co-Founder",
     bio: "Dr. Kayvan Ahmadi co-founded AG Dentistry and brings a broad skill set spanning general and cosmetic dentistry. Known for his calm, reassuring manner, Dr. Ahmadi has built a loyal patient base across our London locations over more than two decades.",
-    specialisms: ["General Dentistry", "Cosmetic Dentistry", "Patient Care"],
     image: "https://images.pexels.com/photos/5452268/pexels-photo-5452268.jpeg?auto=compress&cs=tinysrgb&w=400",
   },
   {
@@ -24,7 +22,6 @@ const team = [
     gdc: "GDC: 160549",
     role: "Dentist",
     bio: "BDS, RDS, MIMD (Portugal). Dr. Wajih Khawaja has a special interest in restorative dentistry, helping patients restore function and aesthetics to their smiles. His postgraduate training and meticulous approach ensure outstanding results for even the most complex cases.",
-    specialisms: [],
     image: "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=400",
   },
   {
@@ -32,7 +29,6 @@ const team = [
     gdc: "GDC: 113783",
     role: "Dentist",
     bio: "BDS (Hons) London, MFDS RCSEd, LLM. Dr. Maha qualified with honours and the Newland Pedley Medal from Guy's, King's and St Thomas' Dental School. Certified in Invisalign, Six Month Smiles, and laser dentistry. Fluent in English and Arabic, she is known for her caring and empathetic manner.",
-    specialisms: [],
     image: "https://images.pexels.com/photos/5214949/pexels-photo-5214949.jpeg?auto=compress&cs=tinysrgb&w=400",
   },
 ];
@@ -72,20 +68,11 @@ export default function TeamPage() {
                 <div className="sm:w-48 h-56 sm:h-auto shrink-0 overflow-hidden">
                   <img src={member.image} alt={member.name} className="w-full h-full object-cover object-top" />
                 </div>
-                <div className="p-6 flex flex-col justify-between">
-                  <div>
-                    <h2 className="font-display text-xl text-charcoal font-medium">{member.name}</h2>
-                    <p className="text-slate-blue text-sm font-medium mt-0.5">{member.role}</p>
-                    <p className="text-warm-grey text-xs mt-0.5">{member.gdc}</p>
-                    <p className="text-warm-grey text-sm leading-relaxed mt-3">{member.bio}</p>
-                  </div>
-                  {member.specialisms.length > 0 && (
-                    <div className="flex flex-wrap gap-2 mt-4">
-                      {member.specialisms.map((s) => (
-                        <span key={s} className="bg-fog text-charcoal text-xs font-medium px-3 py-1 rounded-full border border-light-grey/50">{s}</span>
-                      ))}
-                    </div>
-                  )}
+                <div className="p-6">
+                  <h2 className="font-display text-xl text-charcoal font-medium">{member.name}</h2>
+                  <p className="text-slate-blue text-sm font-medium mt-0.5">{member.role}</p>
+                  <p className="text-warm-grey text-xs mt-0.5">{member.gdc}</p>
+                  <p className="text-warm-grey text-sm leading-relaxed mt-3">{member.bio}</p>
                 </div>
               </div>
             </div>
