@@ -22,7 +22,7 @@ const team = [
   {
     name: "Dr. Wajih Khawaja",
     gdc: "GDC: 160549",
-    role: "Dentist — Special Interest in Restorative Dentistry",
+    role: "Dentist",
     bio: "BDS, RDS, MIMD (Portugal). Dr. Wajih Khawaja has a special interest in restorative dentistry, helping patients restore function and aesthetics to their smiles. His postgraduate training and meticulous approach ensure outstanding results for even the most complex cases.",
     specialisms: [],
     image: "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=400",
@@ -30,7 +30,7 @@ const team = [
   {
     name: "Dr. Maha Hashim",
     gdc: "GDC: 113783",
-    role: "Dentist — Aesthetic & Orthodontic Specialist",
+    role: "Dentist",
     bio: "BDS (Hons) London, MFDS RCSEd, LLM. Dr. Maha qualified with honours and the Newland Pedley Medal from Guy's, King's and St Thomas' Dental School. Certified in Invisalign, Six Month Smiles, and laser dentistry. Fluent in English and Arabic, she is known for her caring and empathetic manner.",
     specialisms: [],
     image: "https://images.pexels.com/photos/5214949/pexels-photo-5214949.jpeg?auto=compress&cs=tinysrgb&w=400",

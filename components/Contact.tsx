@@ -72,28 +72,6 @@ export default function Contact() {
             </div>
           ))}
         </div>
-
-        {/* Map placeholder */}
-        <div className="reveal rounded-3xl overflow-hidden h-72 bg-mist border border-light-grey/50 relative">
-          <img
-            src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1400&q=80&auto=format&fit=crop"
-            alt="London map view"
-            className="w-full h-full object-cover opacity-70"
-          />
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="bg-white/95 backdrop-blur-sm rounded-2xl px-8 py-5 shadow-xl text-center">
-              <p className="font-semibold text-charcoal mb-1">AG Dentistry Kentish Town</p>
-              <p className="text-warm-grey text-sm mb-3">333 Kentish Town Road, London NW5 2TJ</p>
-              <a
-                href="https://maps.google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-slate-blue text-sm font-medium hover:underline"
-              >
-                Open in Google Maps →
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </section>
