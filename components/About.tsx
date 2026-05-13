@@ -11,18 +11,10 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           <div className="relative">
             <div className="reveal relative rounded-2xl overflow-hidden aspect-[4/5] shadow-2xl shadow-slate-blue/10">
-              <img
-                src="https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=800&q=85&auto=format&fit=crop"
-                alt="AG Dentistry clinic interior"
-                className="w-full h-full object-cover"
-              />
+              <img src="https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=800&q=85&auto=format&fit=crop" alt="AG Dentistry clinic" className="w-full h-full object-cover" />
             </div>
             <div className="reveal reveal-delay-2 absolute -bottom-8 -right-6 w-48 h-56 md:w-56 md:h-64 rounded-2xl overflow-hidden border-4 border-white shadow-xl hidden sm:block">
-              <img
-                src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=400&q=85&auto=format&fit=crop"
-                alt="Dental consultation"
-                className="w-full h-full object-cover"
-              />
+              <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=400&q=85&auto=format&fit=crop" alt="Dental consultation" className="w-full h-full object-cover" />
             </div>
             <div className="reveal reveal-delay-3 absolute top-6 -left-4 bg-white rounded-2xl shadow-xl px-5 py-4 hidden md:flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-mist flex items-center justify-center">
@@ -34,13 +26,11 @@ export default function About() {
               </div>
             </div>
           </div>
-
           <div className="lg:pl-6">
             <div className="reveal">
               <span className="text-slate-blue text-xs font-semibold tracking-[0.2em] uppercase">About the Practice</span>
               <h2 className="font-display text-4xl md:text-5xl text-charcoal mt-3 mb-6 leading-tight font-light">
-                Dentistry done with{" "}
-                <em className="italic text-slate-blue">care & precision</em>
+                Dentistry done with <em className="italic text-slate-blue">care and precision</em>
               </h2>
             </div>
             <div className="reveal reveal-delay-1">
@@ -51,7 +41,6 @@ export default function About() {
                 We offer both NHS and private dentistry, believing everyone deserves exceptional dental care. Whether it is a routine check-up or a complete smile transformation, our team of dentists bring skill, artistry, and compassion to every appointment.
               </p>
             </div>
-
             <div className="reveal reveal-delay-2 grid sm:grid-cols-3 gap-4 mb-10">
               {[
                 { icon: Heart, label: "Patient-First", desc: "Your comfort is our priority" },
@@ -67,12 +56,8 @@ export default function About() {
                 </div>
               ))}
             </div>
-
             <div className="reveal reveal-delay-3">
-              
-                href="/team"
-                className="inline-flex items-center gap-2 bg-charcoal text-white font-medium px-7 py-3.5 rounded-full hover:bg-slate-blue transition-all duration-300 text-sm tracking-wide"
-              >
+              <a href="/team" className="inline-flex items-center gap-2 bg-charcoal text-white font-medium px-7 py-3.5 rounded-full hover:bg-slate-blue transition-all duration-300 text-sm tracking-wide">
                 Meet the Team
               </a>
             </div>
