@@ -9,9 +9,7 @@ export default function About() {
     <section id="about" className="py-28 bg-white" ref={ref}>
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-          {/* Images */}
           <div className="relative">
-            {/* Main image */}
             <div className="reveal relative rounded-2xl overflow-hidden aspect-[4/5] shadow-2xl shadow-slate-blue/10">
               <img
                 src="https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=800&q=85&auto=format&fit=crop"
@@ -19,15 +17,13 @@ export default function About() {
                 className="w-full h-full object-cover"
               />
             </div>
-            {/* Floating accent image */}
             <div className="reveal reveal-delay-2 absolute -bottom-8 -right-6 w-48 h-56 md:w-56 md:h-64 rounded-2xl overflow-hidden border-4 border-white shadow-xl hidden sm:block">
               <img
-                src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=400&q=85&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=400&q=85&auto=format&fit=crop"
                 alt="Dental consultation"
                 className="w-full h-full object-cover"
               />
             </div>
-            {/* Award badge */}
             <div className="reveal reveal-delay-3 absolute top-6 -left-4 bg-white rounded-2xl shadow-xl px-5 py-4 hidden md:flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-mist flex items-center justify-center">
                 <Award size={20} className="text-slate-blue" />
@@ -39,7 +35,6 @@ export default function About() {
             </div>
           </div>
 
-          {/* Content */}
           <div className="lg:pl-6">
             <div className="reveal">
               <span className="text-slate-blue text-xs font-semibold tracking-[0.2em] uppercase">About the Practice</span>
@@ -50,19 +45,18 @@ export default function About() {
             </div>
             <div className="reveal reveal-delay-1">
               <p className="text-warm-grey leading-relaxed mb-5">
-                AG Dentistry has been serving London communities for over 22 years across Kentish Town, Kensal Rise, and Harley Street. Founded by Dr. Ali Ghaffarpour, our practice blends clinical excellence with a genuinely warm, patient-first approach that puts you at ease from the moment you walk in.
+                AG Dentistry has been serving the London community for over 22 years. Co-founded by Dr. Ali Ghaffarpour and Dr. Kayvan Ahmadi, our practice blends clinical excellence with a genuinely warm, patient-first approach that puts you at ease from the moment you walk in.
               </p>
               <p className="text-warm-grey leading-relaxed mb-8">
-                We offer both NHS and private dentistry, believing everyone deserves exceptional dental care. Whether it's a routine check-up or a complete smile transformation, our team of specialist dentists bring skill, artistry, and compassion to every appointment.
+                We offer both NHS and private dentistry, believing everyone deserves exceptional dental care. Whether it is a routine check-up or a complete smile transformation, our team of dentists bring skill, artistry, and compassion to every appointment.
               </p>
             </div>
 
-            {/* Values */}
             <div className="reveal reveal-delay-2 grid sm:grid-cols-3 gap-4 mb-10">
               {[
                 { icon: Heart, label: "Patient-First", desc: "Your comfort is our priority" },
                 { icon: ShieldCheck, label: "GDC Registered", desc: "Fully accredited practice" },
-                { icon: Award, label: "Award-Winning", desc: "Recognised for excellence" },
+                { icon: Award, label: "22+ Years", desc: "Serving London since 2003" },
               ].map(({ icon: Icon, label, desc }) => (
                 <div key={label} className="bg-pearl rounded-xl p-4 border border-light-grey/50">
                   <div className="w-9 h-9 rounded-lg bg-mist flex items-center justify-center mb-3">
@@ -75,12 +69,12 @@ export default function About() {
             </div>
 
             <div className="reveal reveal-delay-3">
-              <button
-                onClick={() => window.location.href='/team'}
+              
+                href="/team"
                 className="inline-flex items-center gap-2 bg-charcoal text-white font-medium px-7 py-3.5 rounded-full hover:bg-slate-blue transition-all duration-300 text-sm tracking-wide"
               >
                 Meet the Team
-              </button>
+              </a>
             </div>
           </div>
         </div>
